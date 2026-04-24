@@ -9,7 +9,9 @@ public class All_patterns{
         // floydTriangle(5);
         // zeroOneTriangle(5);
         // palindromePyramid(5);
-        diamond(5);
+        // diamond(5);
+        // decreasingTriangle(5);
+        rightTriangle(5);
     }
 
     public static void Square(int n){
@@ -20,6 +22,15 @@ public class All_patterns{
             System.out.println();
         }
     }
+
+    public static void decreasingTriangle(int n){
+    for(int i=n; i>=1; i--){
+        for(int j=1; j<=i; j++){
+            System.out.print(j);
+        }
+        System.out.println();
+    }
+}
 
     public static void diamond(int n) {
 
@@ -61,6 +72,21 @@ public class All_patterns{
             }
 
         }
+        System.out.println();
+    }
+}
+
+public static void rightTriangle(int n){
+    for(int i=1; i<=n; i++){
+
+        for(int s=1; s<=n-i; s++){
+            System.out.print(" ");
+        }
+
+        for(int j=1; j<=i; j++){
+            System.out.print("*");
+        }
+
         System.out.println();
     }
 }
@@ -142,4 +168,6 @@ public static void palindromePyramid(int n) {
             System.out.println();
         }
     }
+
+
 }
