@@ -36,7 +36,7 @@ public class All_patterns{
 
     for (int i = 1; i <= n; i++) {
 
-        for (int s = 1; s <= n - i; s++) {
+        for (int k = 1; k <= n - i; k++) {
             System.out.print(" ");
         }
 
@@ -79,7 +79,7 @@ public class All_patterns{
 public static void rightTriangle(int n){
     for(int i=1; i<=n; i++){
 
-        for(int s=1; s<=n-i; s++){
+        for(int k=1; k<=n-i; k++){
             System.out.print(" ");
         }
 
@@ -133,7 +133,7 @@ public static void rightTriangle(int n){
 public static void palindromePyramid(int n) {
     for (int i = 1; i <= n; i++) {
 
-        for (int s = 1; s <= n - i; s++) {
+        for (int k = 1; k <= n - i; k++) {
             System.out.print(" ");
         }
 
